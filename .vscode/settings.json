@@ -1,3 +1,4 @@
 {
-    "editor.fontFamily": "Iosevka Mono"
+    "editor.fontFamily": "Iosevka Nerd Font Mono",
+    "editor.fontSize": 17
 }

@@ -1,1 +1,2 @@
-let name = 'hi'
+let hi = 'hi';
+console.log(hi);
