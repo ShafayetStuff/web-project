@@ -1,60 +1,68 @@
 @import url('https://fonts.googleapis.com/css2?family=Bitcount+Grid+Single:wght@100..900&family=Slabo+27px&display=swap');
 body{
-
-    background-color: rgb(197, 197, 197);
-    margin: auto;
-}
-header{
-    background-color: white;
+    background-image: url(wallpaperflare.com_wallpaper.jpg) ;
+    margin-left: 0px;
+    margin-top: 0px;
+    margin-right: 0px;
     align-content: center;
-    padding-left: 50px;
-    font-family: "Bitcount Grid Single", sans-serif;
-    font-style: normal;
-    position: sticky;
 }
-
+/* navbar */
+/* Shafayet's Dungeon */
+#headtitle a{
+    text-align: left;
+    float: left;
+}
+.navbar ul{
+    list-style-type: none;
+    background-color: hsl(0, 0%, 100%);
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+    align-content: center;
+}
+.navtitle{
+    font-family: "Slabo 27px";
+}
+.navbar a{
+    text-decoration: none;
+    text-align: right;
+    color: black;
+    display: block;
+    float: right;
+    padding: 10px;
+    line-height: 40px;
+    font-weight: 500;
+}
+#headtitle{
+    font-family: "Bitcount Grid Single";
+    color: rgb(0, 0, 0);
+    font-weight: 500;;
+    font-size: 30px;
+    padding: 0px;
+}
+.navbar a:hover{
+    color: hsl(0, 0%, 100%);
+    background-color: hsl(0, 0%, 0%);
+}
+/* Navbar end*/
 .notesPrac{
-    color:beige;
     font-family: "Slabo 27px", sans-serif;
     font-style: normal;
-    margin: 30px;
-    background-color: rgb(150, 150, 150);
+    margin: 20px;
+    background-color: rgba(255, 255, 255, 0.38);
+    backdrop-filter: blur(20px);
     padding: 20px;
-    border-top: 5px ridge rgb(255, 255, 255);
-    border-left: 5px ridge rgb(255, 255, 255);
-    border-right: 5px inset rgb(0, 0, 0);
-    border-bottom: 5px inset rgb(0, 0, 0);
-    box-shadow: 6px 6px 7px black;
+    border-top: 5px outset rgb(154, 154, 154);
+    border-left: 5px outset rgb(255, 255, 255);
+    border-right: 5px outset rgb(0, 0, 0);
+    border-bottom: 5px outset rgb(0, 0, 0);
+    box-shadow: 12px 12px 10px rgba(0, 0, 0, 0.692);
+    z-index: 2;
 }
-a{
+.notesPrac a{
     color: black;
     text-decoration: none;
 }
-a:hover{
+.notesPrac a:hover{
     color:rgb(64, 64, 64);
-}
-#bg{
-position: absolute;
-  right: 0;
-  bottom: 0;
-  min-width: 100%;
-  min-height: 100%;
-  z-index: -1;
-  overflow: hidden;
-  
-}
-@media( min-aspect-ratio: 16/9){
-    #bg{
-        width: auto;
-        height: max-content;
-    }
-}
-@media( max-aspect-ratio: 16/9){
-    #bg{
-        width: auto;
-        height: 100%;
-    }
-}
-.bgVideo{
-    filter: blur(40px);
 }
