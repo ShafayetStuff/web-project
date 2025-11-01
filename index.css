@@ -93,9 +93,16 @@ body{
     text-align: center;
 }
 .links li{
-    float: inline-start;
+    float: left;
     align-content: center;
     padding: 10px;
+}
+.links a{
+    text-decoration: none;
+    color:black;
+}
+.links a:hover{
+    color:rgb(54, 54, 54);
 }
 .notesPrac a{
     color: black;
