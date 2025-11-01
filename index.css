@@ -1,6 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Bitcount+Grid+Single:wght@100..900&family=Slabo+27px&display=swap');
+@import "https://www.nerdfonts.com/assets/css/webfont.css";
 body{
-    background-image: url(wallpaperflare.com_wallpaper.jpg) ;
+    background-image: url(hlj77793pzjf1.gif) ;
+    background-size: cover;
     margin-left: 0px;
     margin-top: 0px;
     margin-right: 0px;
@@ -12,9 +14,12 @@ body{
     text-align: left;
     float: left;
 }
+.navbar{
+    z-index: 3;
+}
 .navbar ul{
     list-style-type: none;
-    background-color: hsl(0, 0%, 100%);
+    background-color: hsl(0, 0%, 0%);
     margin: 0px;
     padding: 0px;
     overflow: hidden;
@@ -24,10 +29,11 @@ body{
     font-family: "Slabo 27px";
     font-size: 20px;
 }
+
 .navbar a{
     text-decoration: none;
     text-align: right;
-    color: black;
+    color: rgb(255, 255, 255);
     display: block;
     float: right;
     padding: 20px;
@@ -36,16 +42,17 @@ body{
 }
 #headtitle{
     font-family: "Bitcount Grid Single";
-    color: rgb(0, 0, 0);
+    color: hsl(0, 0%, 100%);
     font-weight: 500;;
     font-size: 25px;
     padding: 0px;
 }
 .navbar a:hover{
-    color: hsl(0, 0%, 100%);
-    background-color: hsl(0, 0%, 0%);
+    color: hsl(0, 0%, 0%);
+    background-color: hsl(0, 0%, 100%);
 }
 /* Navbar end*/
+
 .notesPrac{
     font-family: "Slabo 27px", sans-serif;
     font-style: normal;
@@ -59,6 +66,36 @@ body{
     border-bottom: 5px outset rgb(0, 0, 0);
     box-shadow: 12px 12px 10px rgba(0, 0, 0, 0.692);
     z-index: 2;
+    text-align: center;
+}
+.outro{
+    align-content: end;
+    font-family: "Slabo 27px", sans-serif;
+    font-style: normal;
+    margin: 20px;
+    background-color: rgba(255, 255, 255, 0.38);
+    backdrop-filter: blur(20px);
+    padding: 20px;
+    border-top: 5px outset rgb(154, 154, 154);
+    border-left: 5px outset rgb(255, 255, 255);
+    border-right: 5px outset rgb(0, 0, 0);
+    border-bottom: 5px outset rgb(0, 0, 0);
+    box-shadow: 12px 12px 10px rgba(0, 0, 0, 0.692);
+    z-index: 2;
+    text-align: center;
+    font-size: 40px;
+    
+}
+.links ul{
+    list-style-type: none;
+    display: inline-block;
+    overflow: hidden;
+    text-align: center;
+}
+.links li{
+    float: inline-start;
+    align-content: center;
+    padding: 10px;
 }
 .notesPrac a{
     color: black;
